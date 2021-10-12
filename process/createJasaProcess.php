@@ -1,34 +1,34 @@
 <?php
     // untuk ngecek tombol yang namenya 'register' sudah di pencet atau belum
     // $_POST itu method di formnya
-    if(isset($_POST['register'])){
+    if(isset($_POST['add'])){
 
         // untuk mengoneksikan dengan database dengan memanggil file db.php
         include('../db.php');
 
         // tampung nilai yang ada di from ke variabel
         // sesuaikan variabel name yang ada di registerPage.php disetiap input
-        $username = $_POST['username'];
-        $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
-        $nama = $_POST['nama'];
-        $email = $_POST['email'];
+        $nama_jasa = $_POST['nama_jasa'];
+        $alamat = $_POST['alamat'];
+        $tanggal = $_POST['tanggal'];
+        $jam = $_POST['jam'];
 
         // Melakukan insert ke databse dengan query dibawah ini
         $query = mysqli_query($con,
-            "INSERT INTO users(username, password, nama, email)
+            "INSERT INTO jasa(nama_jasa, alamat, tanggal, jam)
                 VALUES
-            ('$username', '$password', '$nama', '$email')")
+            ('$nama_jasa', '$alamat', '$tanggal', '$jam')")
                 or die(mysqli_error($con)); // perintah mysql yang gagal dijalankan ditangani oleh perintah “or die”
 
         if($query){
             echo
                 '<script>
-                alert("Register Success"); window.location = "../index.php"
+                alert("Add Success"); window.location = "../page/listJasaPage.php"
                 </script>';
         }else{
             echo
                 '<script>
-                alert("Register Failed");
+                alert("Add Failed");
                 </script>';
         }
 

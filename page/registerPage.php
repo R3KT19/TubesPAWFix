@@ -26,19 +26,11 @@
                     <form action="../process/registerProcess.php" method="post">
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Name</label>
-                            <input class="form-control" id="name" name="name" aria-describedby="emailHelp">
+                            <input class="form-control" id="nama" name="nama" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">NPM</label>
-                            <input class="form-control" id="npm" name="npm" aria-describedby="emailHelp">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Prodi</label>
-                            <select class="form-select" aria-label="Default select example" name="prodi" id="prodi">
-                                <option value="Informatika">Informatika</option>
-                                <option value="Sistem Informasi">Sistem Informasi</option>
-                                <option value="Industri">Industri</option>
-                            </select>
+                            <label for="exampleInputPassword1" class="form-label">Email</label>
+                            <input class="form-control" id="email" name="email" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Username</label>

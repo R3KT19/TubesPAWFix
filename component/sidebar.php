@@ -27,7 +27,7 @@
                 } 
                 .side-bar { 
                     width: 260px; 
-                    background-color: #16347A; 
+                    background-color: #0b0d1a; 
                     min-height: 100vh; 
                 } 
          
@@ -61,7 +61,7 @@
             <aside > 
                 <div class="d-flex"> 
                     <div class="side-bar"> 
-                        <h2 class="text-light text-center pt-2">PHP</h2> 
+                        <h2 class="text-light text-center pt-2">PW SERVICE</h2> 
                         <hr> 
                         <div class="menu"> 
                             <div class="content-menu" > 
@@ -70,11 +70,11 @@
                             </div> 
                             <div class="content-menu " > 
                                 <i class="fa fa-list"></i> 
-                                <a href="./listMahasiswaPage.php" style="font-weight:600">List Mahasiswa</a> 
+                                <a href="./listJasaPage.php" style="font-weight:600">List Jasa</a> 
                             </div> 
                             <div class="content-menu " > 
                                 <i class="fa fa-plus-square"></i> 
-                                <a href="./addMahasiswaPage.php" style="font-weight:600">Add Mahasiswa</a> 
+                                <a href="./addJasaPage.php" style="font-weight:600">Add Jasa</a> 
                             </div> 
                             <div class="content-menu " > 
                                 <i class="fa fa-sign-out"></i> 
