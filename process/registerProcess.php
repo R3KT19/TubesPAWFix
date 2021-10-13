@@ -8,10 +8,10 @@
 
         // tampung nilai yang ada di from ke variabel
         // sesuaikan variabel name yang ada di registerPage.php disetiap input
-        $username = $_POST['username'];
-        $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
         $nama = $_POST['nama'];
         $email = $_POST['email'];
+        $username = $_POST['username'];
+        $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
         // Melakukan insert ke databse dengan query dibawah ini
         $query = mysqli_query($con,
