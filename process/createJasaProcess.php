@@ -12,12 +12,13 @@
         $alamat = $_POST['alamat'];
         $tanggal = $_POST['tanggal'];
         $jam = $_POST['jam'];
+        $id = $_GET['id'];
 
         // Melakukan insert ke databse dengan query dibawah ini
         $query = mysqli_query($con,
-            "INSERT INTO jasa(nama_jasa, alamat, tanggal, jam)
+            "INSERT INTO jasa(nama_jasa, alamat, tanggal, jam, usersID)
                 VALUES
-            ('$nama_jasa', '$alamat', '$tanggal', '$jam')")
+            ('$nama_jasa', '$alamat', '$tanggal', '$jam', '$id')")
                 or die(mysqli_error($con)); // perintah mysql yang gagal dijalankan ditangani oleh perintah “or die”
 
         if($query){

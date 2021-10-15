@@ -9,7 +9,7 @@
     <div class="container p-3 m-4 h-100" style="background-color: #FFFFFF; border-top: 5px solid #0b0d1a; boxshadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" >
     <h4 >TAMBAH MAHASISWA</h4>
     <hr>
-    <?='<form action="../process/editJasaProcess.php?id='.$data['id'].'" method="post">'?>
+    <?='<form onsubmit="return validationForm()" action="../process/editJasaProcess.php?id='.$data['id'].'" method="post">'?>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Nama Jasa</label>
             <select class="form-select" aria-label="Default select example" name="nama_jasa" id="nama_jasa">
@@ -56,5 +56,6 @@
     document.getElementById('nama_jasa').value = nama_jasa;
     document.getElementById('jam').value = jam;
  </script>
+ <script src="../script/validation.js"></script>
 </body>
 </html>

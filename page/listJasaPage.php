@@ -17,11 +17,12 @@
                 </tr> 
             </thead> 
             <tbody> 
-                <?php 
-                $query = mysqli_query($con, "SELECT * FROM jasa") or die(mysqli_error($con)); 
+                <?php
+                $id = $_SESSION['user']['id'];
+                $query = mysqli_query($con, "SELECT * FROM jasa WHERE usersID = '$id'") or die(mysqli_error($con)); 
                  
                 if (mysqli_num_rows($query) == 0) { 
-                    echo '<tr> <td colspan="5"> Tidak ada data </td> </tr>'; 
+                    echo '<tr> <td colspan="6" style="text-align: center"> Tidak ada data </td> </tr>'; 
                 }else{ 
                     $no = 1; 
                     while($data = mysqli_fetch_assoc($query)){ 
