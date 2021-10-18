@@ -19,6 +19,14 @@
     <link rel="stylesheet" href="./style/navbarStyle.css">
     <link rel="stylesheet" href="./style/carouselStyle.css">
     <link rel="stylesheet" href="./fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link 
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous"
+    />
 
 
     
@@ -30,7 +38,7 @@
         <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean-button" 
             style="height: 80px;
             color: #ffffff;
-            background: #38244b;">
+            background: #4682B4;">
             <div class="container-fluid">
                 <a class="navbar-brand" 
                     data-bss-hover-animate="rubberBand" 
@@ -90,7 +98,7 @@
     <section id="carousel" 
         style="margin-top: 0px;
         width: 100%;
-        height: 92%;">
+        height: 70%;">
         <div class="carousel slide" 
             data-bs-ride="carousel" 
             id="page" 
@@ -121,8 +129,8 @@
                         style="width: 100%;
                             height: 100%;">
 
-                        <h1 class="title">KATA KATA PAGE 2</h1>
-                        <p class="subtitle">HAAAA</p>
+                        <h1 class="title">Bersih seperti rumah baru</h1>
+                        <p class="subtitle">Auto Kinclong</p>
                     </div>
                 </div>
 
@@ -134,8 +142,8 @@
                         style="width: 100%;
                         height: 100%;">
 
-                        <h1 class="title">Cleaning Service</h1>
-                        <p class="subtitle">AHAHAHAHAHAHAHAH</p>
+                        <h1 class="title">Tinggal Order</h1>
+                        <p class="subtitle">Tunggu Apalagi</p>
                     </div>
                 </div>
             </div>
@@ -174,6 +182,108 @@
             </ol>
         </div>
     </section>
+
+    <br/>
+
+    <section class="service">
+        <div class="pembuka">
+            <div class="pembuka-text">
+                <h1>Auto Kinclong !</h1>
+                <p>Mobil anda kotor ? Rumah dan Taman Berantakan ? AC Sudah Berdebu?
+                <br/>Sans... PW Service solusinya.Dengan jasa yang kami sediakan anda tidak usah cape cape membersihkan rumah dan bisa lanjut rebahan.Tunggu Apalagi ? Segera Order !</p>
+                <h5>Untuk pemesanan silahkan register dan login terlebih dahulu !</h5>
+            </div> 
+            <div class="pembuka-pic"> 
+                <img src="https://covid19.go.id/storage/app/media/icons/icon-11.svg">
+            </div>
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        
+        <h1>Jasa Service yang Kami Tawarkan</h1>
+        <div class="row">
+        <div class="service-col">
+                <h3>Home Clean </h3>
+                <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/village-3-199380.png" width = "250" height = "200">
+                <p><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Fusce tempus orci purus, sit amet rhoncus quam tincidunt eget. Etiam euismod efficitur ultrices. 
+                Pellentesque non egestas sapien. Etiam rutrum, magna eget tempor aliquet, sapien est elementum erat, 
+                venenatis porta diam turpis sed nisi. Maecenas pulvinar iaculis orci eget auctor.</p>
+            </div>
+            <div class="service-col">
+                <h3>Cuci Mobil </h3>
+                <img src="https://cdn.iconscout.com/icon/free/png-256/car-vehicle-travel-transport-side-view-29587.png" width = "250" height = "200">
+                <p><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Fusce tempus orci purus, sit amet rhoncus quam tincidunt eget. Etiam euismod efficitur ultrices. 
+                Pellentesque non egestas sapien. Etiam rutrum, magna eget tempor aliquet, sapien est elementum erat, 
+                venenatis porta diam turpis sed nisi. Maecenas pulvinar iaculis orci eget auctor.</p>
+            </div>
+            <div class="service-col">
+                <h3>Cuci AC</h3>
+                <img src="https://www.austinalpine.com/wp-content/uploads/2020/07/air-conditioner.png" width = "250" height = "200">
+                <p><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Fusce tempus orci purus, sit amet rhoncus quam tincidunt eget. Etiam euismod efficitur ultrices. 
+                Pellentesque non egestas sapien. Etiam rutrum, magna eget tempor aliquet, sapien est elementum erat, 
+                venenatis porta diam turpis sed nisi. Maecenas pulvinar iaculis orci eget auctor.</p>
+            </div>
+            <div class="service-col">
+                <h3>Garden Clean</h3>
+                <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/garden-1757583-1495277.png" width = "250" height = "200">
+                <p><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Fusce tempus orci purus, sit amet rhoncus quam tincidunt eget. Etiam euismod efficitur ultrices. 
+                Pellentesque non egestas sapien. Etiam rutrum, magna eget tempor aliquet, sapien est elementum erat, 
+                venenatis porta diam turpis sed nisi. Maecenas pulvinar iaculis orci eget auctor.</p>
+            </div>
+        </div>  
+        
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <div class="alamat">
+            <div class="alamat-text">
+                <h1>Kontak Kami</h1>
+                <p>Alamat: Jl. Babarsari No.43, Janti, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</p>
+                <p>Telepon: (0274) 487711</p>
+                <p>Provinsi: Daerah Istimewa Yogyakarta</p>
+            </div> 
+            <div class="alamat-pic"> 
+                <img src="http://www.uajy.ac.id/wp-content/uploads/2008/11/Gedung-Bonaventura.jpg">
+            </div>
+        </div> 
+    </section> 
+    
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <section class = "footer">
+        <h4>About Us</h4>
+        <p>Godwin | Batara | Yolif </p>
+        <div class = "icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    <p>Made by Kelompok 10 PW</p>
+
+    </section>
+
 </body>
 
 </html>

@@ -8,3 +8,142 @@
 * {
     font-family: 'Quicksand', sans-serif;
 }
+
+.pembuka{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.pembuka-text{
+    width: 50%;
+    float: left;
+}
+
+.pembuka-text h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+
+.pembuka-text h5{
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+
+.pembuka-text p{
+    width: 650px;
+    font-size: 16px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color : #919191;
+}
+
+.pembuka-pic{
+    width: 50%;
+    float: right;
+}
+
+.pembuka-pic img{
+    width: 70%;
+    float: right;
+}
+
+
+.icons .fa{
+    color:#f8f9fa;
+    margin:0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+
+.service{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-col{
+    flex-basis: 48%;
+    background-color: #b0e0e6;
+    border-radius : 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.service-col:hover{
+    box-shadow: 0 0 20px 0px rgb(2, 2, 2);
+}
+
+.alamat{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.alamat-text{
+    width: 50%;
+    float: left;
+}
+
+.alamat-text h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+
+.alamat-text p{
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color : #919191;
+}
+
+.alamat-pic{
+    width: 50%;
+    float: right;
+}
+
+.alamat-pic img{
+    width: 70%;
+    float: right;
+}
+
+.footer{
+    width: 100%;
+    text-align : center;
+    padding: 30px 0;
+    background-color:#282d32;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    color:#f8f9fa;
+}
+
+.footer p{
+    color:#f8f9fa;
+}
+
