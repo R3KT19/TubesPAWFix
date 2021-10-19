@@ -14,14 +14,16 @@
     $password = password_hash($password, PASSWORD_DEFAULT);
     $nama = $_POST['nama'];
     $email = $_POST['email'];
+    $telp = $_POST['telp'];
     $code = md5($email.date('Y-m-d'));
 
     $sql = "SELECT * FROM users where email='$email'";
     $query = mysqli_query($con,$sql);
     if(mysqli_num_rows($query) > 0){
-        echo '<script>alert("Email sudah terdaftar");</script>';
+        echo '<script>alert("Email sudah terdaftar");
+        window.history.back();</script>';
     }else {
-        $sql = "INSERT INTO users (username,password,nama,email,verif_code)VALUES('$username','$password','$nama','$email','$code')";
+        $sql = "INSERT INTO users (username,password,nama,email,verif_code)VALUES('$username','$password','$nama','$email','$telp','$code')";
         $query = mysqli_query($con,$sql);
 
         //Create a new PHPMailer instance
@@ -71,7 +73,7 @@
 
         //Read an HTML message body from an external file, convert referenced images to embedded,
         //convert HTML into a basic plain-text alternative body
-        $body = "Hi, ".$nama."<br>Plase verif your email before access our website : <br> http://localhost:8080/TUBES_PAW/process/confirmEmail.php?code=".$code;
+        $body = "Hi, ".$nama."<br>Plase verif your email before access our website : <br> http://localhost/TUBES_PAW/process/confirmEmail.php?code=".$code;
         $mail->Body = $body;
         //Replace the plain text body with one created manually
         $mail->AltBody = 'Verification Account';
@@ -80,12 +82,7 @@
         if (!$mail->send()) {
             echo 'Mailer Error: '. $mail->ErrorInfo;
         } else {
-            echo 'Register sukses silahkan login !';
-            //Section 2: IMAP
-            //Uncomment these to save your message in the 'Sent Mail' folder.
-            #if (save_mail($mail)) {
-            #    echo "Message saved!";
-            #}
+            echo 'Register sukses silahkan cek email untuk verif email !';
         }
 
     }

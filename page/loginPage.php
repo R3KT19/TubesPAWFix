@@ -27,18 +27,17 @@
         <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean-button" 
             style="height: 80px;
             color: #ffffff;
-            background: #38244b;">
+            background: #4682B4;">
 
             <div class="container-fluid">
                 <a class="navbar-brand"
                     data-bss-hover-animate="rubberBand" 
                     href="../index.php" 
-                    style="box-shadow: 0px 0px 20px #482e60;
+                    style="color : #ffffff;
                     padding-top: 8px;
                     padding-right: 18px;
                     padding-bottom: 8px;
                     padding-left: 18px;
-                    text-shadow: 1px 1px 20px #ff0000;
                     transform-style: preserve-3d;
                     filter: hue-rotate(0deg);">
                  
@@ -58,7 +57,6 @@
                             <a class="nav-link" 
                                 data-bss-hover-animate="pulse" 
                                 style="color: #ffffff;
-                                text-shadow: 1px 1px 20px #ffa500;
                                 filter: hue-rotate(300deg) saturate(200%);
                                 transform-style: preserve-3d;" 
                                 href="./registerPage.php">
@@ -71,7 +69,6 @@
                             <a class="nav-link active" 
                                 data-bss-hover-animate="pulse" 
                                 style="color: #ffffff;
-                                text-shadow: 1px 1px 20px #ff0000;
                                 filter: hue-rotate(250deg) saturate(200%);
                                 transform-style: preserve-3d;" 
                                 href="./loginPage.php">

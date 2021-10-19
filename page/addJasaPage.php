@@ -1,7 +1,7 @@
 <?php
     include '../component/sidebar.php'
 ?>
-    <div class="container p-3 m-4 h-100" style="background-color: #FFFFFF; border-top: 5px solid #17337A; boxshadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" >
+    <div class="container p-3 m-4 h-100" style="background-color: #FFFFFF; border-top: 5px solid #4682B4; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" > 
     <h4 >TAMBAH JASA</h4>
     <hr>
     <?='<form name="formAdd" action="../process/createJasaProcess.php?id='.$_SESSION['user']['id'].'" onSubmit="return validationForm()" method="post">'?>

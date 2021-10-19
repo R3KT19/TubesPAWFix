@@ -34,8 +34,15 @@
                     .side-bar 
                     {
                         width: 260px;
-                        background-color: #16347A;
+                        background-color: #4682B4;
                         min-height: 100vh;
+                    }
+
+                    .hamburger {
+                        display: flex;
+                        flex-direction: column;
+                        cursor: pointer;
+                        width: 22px;
                     }
 
                     a 
@@ -58,7 +65,7 @@
 
                     .isActive 
                     {
-                        background-color: #071853 !important;
+                        background-color: #4682B4 !important;
                         border-right: 8px solid #010E2F;
                     }
 
@@ -72,7 +79,7 @@
                 <aside>
                     <div class="d-flex">
                         <div class="side-bar">
-                            <h2 class="text-light text-center pt-2">PW SERVICE</h2>
+                            <h4 class="text-light text-center pt-2">PW SERVICE</h4>
                             <hr>
                             <div class="menu">
                                 <div class="content-menu">
@@ -80,8 +87,8 @@
                                     <a href="./dashboardPage.php" style="font-weight:600">Dashboard</a>
                                 </div>
                                 <div class="content-menu">
-                                    <i class="fa fa-list"></i>
-                                    <a href="./listMahasiswaPage.php" style="font-weight:600">List Mahasiswa</a>
+                                    <i class="fa fa-user-circle-o"></i>
+                                    <a href="./editProfilePage.php" style="font-weight:600">Profile</a>
                                 </div>
                                 <div class="content-menu">
                                     <i class="fa fa-list"></i>
@@ -89,11 +96,7 @@
                                 </div>
                                 <div class="content-menu">
                                     <i class="fa fa-plus-square"></i>
-                                    <a href="./addMahasiswaPage.php" style="font-weight:600">Add Mahasiswa</a>
-                                </div>
-                                <div class="content-menu">
-                                    <i class="fa fa-plus-square"></i>
-                                    <a href="./addJasaPage.php" style="font-weight:600">Add Jasa</a>
+                                    <a href="./addJasaPage.php" style="font-weight:600">Tambahkan Jasa</a>
                                 </div>
                                 <div class="content-menu">
                                     <i class="fa fa-sign-out"></i>

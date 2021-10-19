@@ -25,21 +25,19 @@
         <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean-button" 
             style="height: 80px;
             color: #ffffff;
-            background: #38244b;">
+            background: #4682B4;">
 
             <div class="container-fluid">
                 <a class="navbar-brand" 
                     data-bss-hover-animate="rubberBand" 
                     href="../index.php" 
-                    style="box-shadow: 0px 0px 20px #482e60;
+                    style="color : #ffffff;
                     padding-top: 8px;
                     padding-right: 18px;
                     padding-bottom: 8px;
                     padding-left: 18px;
-                    text-shadow: 1px 1px 20px #ff0000;
                     transform-style: preserve-3d;
                     filter: hue-rotate(0deg);">
-
                     <i class="fa fa-globe"></i>&nbsp;PW SERVICE
                 </a>
 
@@ -60,7 +58,6 @@
                                 data-bss-hover-animate="pulse" 
                                 href="./registerPage.php"
                                 style="color: #ffffff;
-                                text-shadow: 1px 1px 20px #ffa500;
                                 filter: hue-rotate(300deg) saturate(200%);
                                 transform-style: preserve-3d;">
 
@@ -73,7 +70,6 @@
                                 data-bss-hover-animate="pulse" 
                                 href="./loginPage.php"
                                 style="color: #ffffff;
-                                text-shadow: 1px 1px 20px #ff0000;
                                 filter: hue-rotate(250deg) saturate(200%);
                                 transform-style: preserve-3d;" >
 
@@ -137,6 +133,23 @@
                     placeholder="Nama" 
                     autofocus="" 
                     name="nama">
+            </div>
+
+            <div>
+                <p style="width: 100%;
+                    height: 25px;
+                    margin-bottom: 5px;
+                    padding-left: 5px;
+                    font-size: 18px;">No Hp
+                </p>
+
+                <input class="border rounded-pill shadow-lg form-control" 
+                    type="text" 
+                    id="telp" 
+                    required="" 
+                    placeholder="No Hp" 
+                    autofocus="" 
+                    name="telp">
             </div>
 
             <div>

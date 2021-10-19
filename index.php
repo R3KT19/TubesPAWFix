@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>TUBES_PAW</title>
+    <title>PW Service</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -43,12 +43,11 @@
                 <a class="navbar-brand" 
                     data-bss-hover-animate="rubberBand" 
                     href="./index.php" 
-                    style="box-shadow: 0px 0px 20px #482e60;
+                    style="color : #ffffff;
                     padding-top: 8px;
                     padding-right: 18px;
                     padding-bottom: 8px;
                     padding-left: 18px;
-                    text-shadow: 1px 1px 20px #ff0000;
                     transform-style: preserve-3d;
                     filter: hue-rotate(0deg);">
                 
@@ -69,7 +68,6 @@
                             <a class="nav-link" 
                                 data-bss-hover-animate="pulse" 
                                 style="color: #ffffff;
-                                text-shadow: 1px 1px 20px #ffa500;
                                 filter: hue-rotate(300deg) saturate(200%);
                                 transform-style: preserve-3d;"
                                 href="./page/registerPage.php">
@@ -82,7 +80,6 @@
                             <a class="nav-link" 
                                 data-bss-hover-animate="pulse" 
                                 style="color: #ffffff;
-                                text-shadow: 1px 1px 20px #ff0000;
                                 filter: hue-rotate(250deg) saturate(200%);
                                 transform-style: preserve-3d;"
                                 href="./page/loginPage.php">
