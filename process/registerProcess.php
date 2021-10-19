@@ -23,7 +23,7 @@
         echo '<script>alert("Email sudah terdaftar");
         window.history.back();</script>';
     }else {
-        $sql = "INSERT INTO users (username,password,nama,email,verif_code)VALUES('$username','$password','$nama','$email','$telp','$code')";
+        $sql = "INSERT INTO users (username,password,nama,email,telp,verif_code)VALUES('$username','$password','$nama','$email','$telp','$code')";
         $query = mysqli_query($con,$sql);
 
         //Create a new PHPMailer instance
@@ -60,7 +60,7 @@
         $mail->Password = 'madekomang1234567890';
 
         //Set who the message is to be sent from
-        $mail->setFrom('no-reply@yourwebsite.com', 'resik-resik');
+        $mail->setFrom('no-reply@yourwebsite.com', 'Tubes PW');
 
         //Set an alternative reply-to address
         //$mail->addReplyTo('replyto@example.com', 'First Last');
@@ -69,7 +69,7 @@
         $mail->addAddress($email, $nama);
 
         //Set the subject line
-        $mail->Subject = 'Verification Account - RESIK-RESIK';
+        $mail->Subject = 'Verification Account';
 
         //Read an HTML message body from an external file, convert referenced images to embedded,
         //convert HTML into a basic plain-text alternative body
