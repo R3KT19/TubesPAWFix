@@ -73,7 +73,7 @@
 
         //Read an HTML message body from an external file, convert referenced images to embedded,
         //convert HTML into a basic plain-text alternative body
-        $body = "Hi, ".$nama."<br>Plase verif your email before access our website : <br> http://localhost/TUBES_PAW/process/confirmEmail.php?code=".$code;
+        $body = "Hi, ".$nama."<br>Plase verif your email before access our website : <br> http://localhost:8012/Tubes_PAW-1/process/confirmEmail.php?code=".$code;
         $mail->Body = $body;
         //Replace the plain text body with one created manually
         $mail->AltBody = 'Verification Account';
