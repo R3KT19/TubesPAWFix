@@ -1,13 +1,16 @@
 <?php
     require ('../db.php');
-    $username = $_POST['username'];
+    $email = $_POST['email'];
     $password = $_POST['password'];
 
-    $sql = "SELECT * FROM users where username = '$username'";
+    $sql = "SELECT * FROM users where email = '$email'";
     $query = mysqli_query($con,$sql);
 
     if(mysqli_num_rows($query) == 0 ){
-        echo "EMAIL TIDAK DITEMUKAN";
+        echo '<script>
+            alert("Email tidak terdaftar");
+            window.history.back();
+            </script>';
     }else {
         $user = mysqli_fetch_assoc($query);
         if(password_verify($password,$user['password'])){
@@ -18,10 +21,16 @@
     
                 header("location: ../page/dashboardPage.php");
             }else {
-                echo "VERIF EMAIL DULU GAN !";
+                echo '<script>
+                alert("Email belum diverif");
+                window.history.back();
+                </script>';
             }
         }else {
-            echo "PASSWORD SALAH !";
+            echo '<script>
+            alert("Password Anda Salah");
+            window.history.back();
+            </script>';
         }
     }
 ?>

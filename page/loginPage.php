@@ -121,16 +121,16 @@
                 height: 25px;
                 margin-bottom: 5px;
                 padding-left: 5px;
-                font-size: 18px;">Username
+                font-size: 18px;">Email
             </p>
             
             <input class="border rounded-pill shadow-lg form-control" 
                 type="text" 
                 id="inputEmail" 
                 required="" 
-                placeholder="Username"
+                placeholder="Email"
                 autofocus="" 
-                name="username">
+                name="email">
 
             <p style="width: 100%;
                 height: 25px;

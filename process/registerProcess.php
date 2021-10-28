@@ -82,7 +82,10 @@
         if (!$mail->send()) {
             echo 'Mailer Error: '. $mail->ErrorInfo;
         } else {
-            echo 'Register sukses silahkan cek email untuk verif email !';
+            echo '<script>
+            alert("Register berhasil silahakan cek email dan verifikasi email untuk aktivasi akun");
+            window.location = "../page/loginPage.php"
+            </script>';
         }
 
     }
